@@ -1,0 +1,12 @@
+#include "AST/expression.hpp"
+
+ExpressionNode::ExpressionNode(const uint32_t line, const uint32_t col)
+    : AstNode{line, col} {}
+
+std::string ExpressionNode::getExpressionType() {
+    return this->_exprType;
+}
+
+void ExpressionNode::setExpressionType(std::string exprType) {
+    this->_exprType = exprType;
+}

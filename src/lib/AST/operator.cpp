@@ -1,0 +1,1 @@
+const char *operatorStr [] = {"neg", "*", "/", "mod", "+", "-", "<", "<=", ">", ">=", "=", "<>", "not", "and", "or"};
