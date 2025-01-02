@@ -1,0 +1,1 @@
+const char *typeStr[5] = {"void", "integer", "real", "string", "boolean"};
